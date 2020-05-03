@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D076016A245F32C800C0820B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0760169245F32C800C0820B /* AppDelegate.swift */; };
+		D076016C245F32C800C0820B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076016B245F32C800C0820B /* SceneDelegate.swift */; };
+		D076016E245F32C800C0820B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076016D245F32C800C0820B /* ViewController.swift */; };
+		D0760171245F32C800C0820B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D076016F245F32C800C0820B /* Main.storyboard */; };
+		D0760174245F32C800C0820B /* whiskey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0760172245F32C800C0820B /* whiskey.xcdatamodeld */; };
+		D0760176245F32CE00C0820B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0760175245F32CE00C0820B /* Assets.xcassets */; };
+		D0760179245F32CE00C0820B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0760177245F32CE00C0820B /* LaunchScreen.storyboard */; };
+		D0760184245F32CE00C0820B /* whiskeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0760183245F32CE00C0820B /* whiskeyTests.swift */; };
+		D076018F245F32CE00C0820B /* whiskeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076018E245F32CE00C0820B /* whiskeyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0760180245F32CE00C0820B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D076015E245F32C800C0820B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0760165245F32C800C0820B;
+			remoteInfo = whiskey;
+		};
+		D076018B245F32CE00C0820B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D076015E245F32C800C0820B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0760165245F32C800C0820B;
+			remoteInfo = whiskey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0760166245F32C800C0820B /* whiskey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whiskey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0760169245F32C800C0820B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D076016B245F32C800C0820B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D076016D245F32C800C0820B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0760170245F32C800C0820B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0760173245F32C800C0820B /* whiskey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = whiskey.xcdatamodel; sourceTree = "<group>"; };
+		D0760175245F32CE00C0820B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0760178245F32CE00C0820B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D076017A245F32CE00C0820B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D076017F245F32CE00C0820B /* whiskeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whiskeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0760183245F32CE00C0820B /* whiskeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whiskeyTests.swift; sourceTree = "<group>"; };
+		D0760185245F32CE00C0820B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D076018A245F32CE00C0820B /* whiskeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whiskeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D076018E245F32CE00C0820B /* whiskeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whiskeyUITests.swift; sourceTree = "<group>"; };
+		D0760190245F32CE00C0820B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0760163245F32C800C0820B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D076017C245F32CE00C0820B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0760187245F32CE00C0820B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D076015D245F32C800C0820B = {
+			isa = PBXGroup;
+			children = (
+				D0760168245F32C800C0820B /* whiskey */,
+				D0760182245F32CE00C0820B /* whiskeyTests */,
+				D076018D245F32CE00C0820B /* whiskeyUITests */,
+				D0760167245F32C800C0820B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0760167245F32C800C0820B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0760166245F32C800C0820B /* whiskey.app */,
+				D076017F245F32CE00C0820B /* whiskeyTests.xctest */,
+				D076018A245F32CE00C0820B /* whiskeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0760168245F32C800C0820B /* whiskey */ = {
+			isa = PBXGroup;
+			children = (
+				D0760169245F32C800C0820B /* AppDelegate.swift */,
+				D076016B245F32C800C0820B /* SceneDelegate.swift */,
+				D076016D245F32C800C0820B /* ViewController.swift */,
+				D076016F245F32C800C0820B /* Main.storyboard */,
+				D0760175245F32CE00C0820B /* Assets.xcassets */,
+				D0760177245F32CE00C0820B /* LaunchScreen.storyboard */,
+				D076017A245F32CE00C0820B /* Info.plist */,
+				D0760172245F32C800C0820B /* whiskey.xcdatamodeld */,
+			);
+			path = whiskey;
+			sourceTree = "<group>";
+		};
+		D0760182245F32CE00C0820B /* whiskeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0760183245F32CE00C0820B /* whiskeyTests.swift */,
+				D0760185245F32CE00C0820B /* Info.plist */,
+			);
+			path = whiskeyTests;
+			sourceTree = "<group>";
+		};
+		D076018D245F32CE00C0820B /* whiskeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D076018E245F32CE00C0820B /* whiskeyUITests.swift */,
+				D0760190245F32CE00C0820B /* Info.plist */,
+			);
+			path = whiskeyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0760165245F32C800C0820B /* whiskey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0760193245F32CE00C0820B /* Build configuration list for PBXNativeTarget "whiskey" */;
+			buildPhases = (
+				D0760162245F32C800C0820B /* Sources */,
+				D0760163245F32C800C0820B /* Frameworks */,
+				D0760164245F32C800C0820B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = whiskey;
+			productName = whiskey;
+			productReference = D0760166245F32C800C0820B /* whiskey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D076017E245F32CE00C0820B /* whiskeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0760196245F32CE00C0820B /* Build configuration list for PBXNativeTarget "whiskeyTests" */;
+			buildPhases = (
+				D076017B245F32CE00C0820B /* Sources */,
+				D076017C245F32CE00C0820B /* Frameworks */,
+				D076017D245F32CE00C0820B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0760181245F32CE00C0820B /* PBXTargetDependency */,
+			);
+			name = whiskeyTests;
+			productName = whiskeyTests;
+			productReference = D076017F245F32CE00C0820B /* whiskeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0760189245F32CE00C0820B /* whiskeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0760199245F32CE00C0820B /* Build configuration list for PBXNativeTarget "whiskeyUITests" */;
+			buildPhases = (
+				D0760186245F32CE00C0820B /* Sources */,
+				D0760187245F32CE00C0820B /* Frameworks */,
+				D0760188245F32CE00C0820B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D076018C245F32CE00C0820B /* PBXTargetDependency */,
+			);
+			name = whiskeyUITests;
+			productName = whiskeyUITests;
+			productReference = D076018A245F32CE00C0820B /* whiskeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D076015E245F32C800C0820B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "lauren roberts";
+				TargetAttributes = {
+					D0760165245F32C800C0820B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					D076017E245F32CE00C0820B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D0760165245F32C800C0820B;
+					};
+					D0760189245F32CE00C0820B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D0760165245F32C800C0820B;
+					};
+				};
+			};
+			buildConfigurationList = D0760161245F32C800C0820B /* Build configuration list for PBXProject "whiskey" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D076015D245F32C800C0820B;
+			productRefGroup = D0760167245F32C800C0820B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0760165245F32C800C0820B /* whiskey */,
+				D076017E245F32CE00C0820B /* whiskeyTests */,
+				D0760189245F32CE00C0820B /* whiskeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0760164245F32C800C0820B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0760179245F32CE00C0820B /* LaunchScreen.storyboard in Resources */,
+				D0760176245F32CE00C0820B /* Assets.xcassets in Resources */,
+				D0760171245F32C800C0820B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D076017D245F32CE00C0820B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0760188245F32CE00C0820B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0760162245F32C800C0820B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0760174245F32C800C0820B /* whiskey.xcdatamodeld in Sources */,
+				D076016E245F32C800C0820B /* ViewController.swift in Sources */,
+				D076016A245F32C800C0820B /* AppDelegate.swift in Sources */,
+				D076016C245F32C800C0820B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D076017B245F32CE00C0820B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0760184245F32CE00C0820B /* whiskeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0760186245F32CE00C0820B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D076018F245F32CE00C0820B /* whiskeyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0760181245F32CE00C0820B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0760165245F32C800C0820B /* whiskey */;
+			targetProxy = D0760180245F32CE00C0820B /* PBXContainerItemProxy */;
+		};
+		D076018C245F32CE00C0820B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0760165245F32C800C0820B /* whiskey */;
+			targetProxy = D076018B245F32CE00C0820B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D076016F245F32C800C0820B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0760170245F32C800C0820B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0760177245F32CE00C0820B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0760178245F32CE00C0820B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0760191245F32CE00C0820B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0760192245F32CE00C0820B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0760194245F32CE00C0820B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF225V3TV2;
+				INFOPLIST_FILE = whiskey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.laurenRoberts.whiskey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0760195245F32CE00C0820B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF225V3TV2;
+				INFOPLIST_FILE = whiskey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.laurenRoberts.whiskey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0760197245F32CE00C0820B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF225V3TV2;
+				INFOPLIST_FILE = whiskeyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.laurenRoberts.whiskeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whiskey.app/whiskey";
+			};
+			name = Debug;
+		};
+		D0760198245F32CE00C0820B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF225V3TV2;
+				INFOPLIST_FILE = whiskeyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.laurenRoberts.whiskeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whiskey.app/whiskey";
+			};
+			name = Release;
+		};
+		D076019A245F32CE00C0820B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF225V3TV2;
+				INFOPLIST_FILE = whiskeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.laurenRoberts.whiskeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = whiskey;
+			};
+			name = Debug;
+		};
+		D076019B245F32CE00C0820B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KF225V3TV2;
+				INFOPLIST_FILE = whiskeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.laurenRoberts.whiskeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = whiskey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0760161245F32C800C0820B /* Build configuration list for PBXProject "whiskey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0760191245F32CE00C0820B /* Debug */,
+				D0760192245F32CE00C0820B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0760193245F32CE00C0820B /* Build configuration list for PBXNativeTarget "whiskey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0760194245F32CE00C0820B /* Debug */,
+				D0760195245F32CE00C0820B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0760196245F32CE00C0820B /* Build configuration list for PBXNativeTarget "whiskeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0760197245F32CE00C0820B /* Debug */,
+				D0760198245F32CE00C0820B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0760199245F32CE00C0820B /* Build configuration list for PBXNativeTarget "whiskeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D076019A245F32CE00C0820B /* Debug */,
+				D076019B245F32CE00C0820B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0760172245F32C800C0820B /* whiskey.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0760173245F32C800C0820B /* whiskey.xcdatamodel */,
+			);
+			currentVersion = D0760173245F32C800C0820B /* whiskey.xcdatamodel */;
+			path = whiskey.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D076015E245F32C800C0820B /* Project object */;
+}
